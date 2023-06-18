@@ -119,8 +119,9 @@ namespace CSI124_Final
         private void btnExportCSV_Click(object sender, RoutedEventArgs e)
         {
             string FilePath = txtExportNewCSV.Text;
+            string filePathCSV = $"{FilePath}{".csv"}";
 
-            SaveTransactionToCSVfile($"{FilePath}{".csv"}", transactions);
+            SaveTransactionToCSVfile(filePathCSV, transactions);
 
             Clear();
 
@@ -137,5 +138,9 @@ namespace CSI124_Final
             return tempList;
         }
 
+        private void btnLogOut_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }//class
 }//namespace

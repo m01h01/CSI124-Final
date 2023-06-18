@@ -34,7 +34,7 @@
             <Button x:Name="btnExportCSV" Content="Export" Canvas.Left="58" Canvas.Top="67" HorizontalAlignment="Left" VerticalAlignment="Center" Width="132" Click="btnExportCSV_Click"/>
         </Canvas>
         <Button x:Name="btnSaveTran" Content="Save Transaction" Canvas.Left="548" Canvas.Top="18" Height="32" Width="210" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnSaveTran_Click"/>
-        <Button Content="Logout" Canvas.Left="590" Canvas.Top="375" Height="33" Width="128" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="btnLogOut" Content="Logout" Canvas.Left="590" Canvas.Top="375" Height="33" Width="128" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnLogOut_Click"/>
         <Canvas Height="83" Width="485" Canvas.Left="22" Canvas.Top="333" Background="#FFA7ADA7" HorizontalAlignment="Left" VerticalAlignment="Center">
             <Button x:Name="btnSortName" Content="Name" Canvas.Left="10" Canvas.Top="40" Height="33" Width="128" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnSortName_Click"/>
             <Button x:Name="btnSortTranTime" Content="Transaction Time" Canvas.Left="173" Canvas.Top="40" Height="33" Width="128" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnSortTranTime_Click"/>
